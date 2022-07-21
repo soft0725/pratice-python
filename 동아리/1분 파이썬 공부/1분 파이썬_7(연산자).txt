@@ -1,0 +1,28 @@
+산술 연산자 
++   더하기  예시) print(5 + 2) 실행결과 7
+-   빼기    예시) print(5 - 2) 실행결과 3
+*   곱하기  예시) print(5 * 2) 실행결과 10
+/   나누기  예시) print(5 / 2) 실행결과 2.5
+%   나머지  예시) print(5 % 2) 실행결과 1
+//  몫      예시) print(5 // 2) 실행결과 2
+**  거듭제곱 예시) print(5 ** 2) 실행결과 25
+
+
+비교 연산자
+>   크다        print(5 > 2) 실행결과 True
+>=  크거나 같다  print(5 >= 2) 실행결과 True
+<   작다        print(5 < 2) 실행결과 False
+<=  작거나 같다  print(5 <= 2) 실행결과 False
+==  같다        print(5 == 2) 실행결과 False
+!=  같지 않다    print(5 != 2) 실행결과 True
+
+
+논리 연산자 
+and     둘다 참이면 True        print(3 < 5 and 7 < 5) 실행결과 False 
+or      하나라도 참이면 True    print(3 < 5 and 7 < 5) 실행결과 True
+not     반전 True               print(3 < 5) 실행결과 False 
+
+
+멤버 연산자 
+in      포함                    print('c' in 'cat') 실행결과 True
+not in  미포함                  print('c' not in 'cat') 실행결과 False 

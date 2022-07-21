@@ -1,0 +1,50 @@
+불리안 자료형은 True와 False 중에서 하나의 값을 가짐 
+
+bool은 값이 있으면 True, 값이 없으면 False로 변함 
+
+값이 있다 없다 판단하는 기준
+예)
+1. 문자 자료형 
+a = 'hello' (O 값이 있음)
+b = '     ' (O 값이 있음)
+c = ''      (X 값이 없음)
+
+print(bool(a))
+print(bool(b))
+print(bool(c))
+
+실행 결과
+True
+True
+False
+----------------------------------
+2. 숫자 자료형 
+a = 1   (O 값이 있음)
+b = -2  (O 값이 있음)
+c = 0   (X 값이 있음 0은 값이 없다고 판단)
+
+print(bool(a))
+print(bool(b))
+print(bool(c))
+
+실행 결과
+True
+True
+False
+-=-------------------------------
+3. 그외 (None)
+파이썬의 키워드 중에서 값이 없음을 의미하는 None가 있다
+
+print(bool(None))
+
+실행 결과
+False
+
+
+
+불리안을 한마디로 정리하면 
+
+참이면 True
+거짓이면 False
+값이 있으면 True
+값이 없으면 False

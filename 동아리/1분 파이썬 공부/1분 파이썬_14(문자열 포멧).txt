@@ -1,0 +1,27 @@
+python = '파이썬'
+java = '자바
+
+둘다 출력하려면 print(python + ' ' + java) 
+
+또는
+
+print(python, java)
+자동으로 띄어쓰기 해서 출력함 
+
+다른 문장 속에 넣으려면 
+'개발 언어에는 파이썬, 자바 등이 있어요' 를 출력하려면 
+print('개발 언어에는 ' + python + ',' + java + '등이 있어요')
+print('개발 언어에는 ',python,',',java,등이 있어요')
+
+위와 같이 해도 되지만 많이 복잡함 
+
+이럴때 문자열 포멧을 사용 
+print('개발 언어에는 {},{} 등이 있어요'.format(python,java))
+format에 있는 값들이 순서대로 중괄호에 대입이 된다
+
+다른 방법은 
+print('개발 언어에는 {0},{1} 등이 있어요'.format(python,java))
+중괄호 안에 숫자를 적으면 위치에 맞게 들어가게 된다
+
+또 다른 방법
+print(f'개발 언어에는 {python},{java} 등이 있어요')
